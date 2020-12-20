@@ -21,6 +21,21 @@ Bu problem, Regresyon Problemi'dir. Bu problemde amaç, bir Rus teknoloji şirke
 6. **test.csv**  -                 _Bu mağazalar ve ürünler için Kasım 2015 satışları tahmin edilecek test verisetidir._
 
 
+## 3. Seçilen Öznitelikler ve Türleri
+### Kategorik:
+- **shop_id** - Bir mağazanın benzersiz tanımlayıcısı  
+- **item_id** - Bir ürünün benzersiz tanımlayıcısı  
+- **item_category_id** - Ürün kategorisinin benzersiz tanımlayıcısı   
+- **date_block_num** - Kolaylık sağlamak için kullanılan ardışık bir ay numarası. Ocak 2013 0, Şubat 2013 1, ... Ekim 2015 33 
+
+### Nümerik:
+- **item_price** - Bir ürünün mevcut fiyatı  
+- **date** - gg / aa / yyyy biçiminde tarih  
+- **item_cnt_day** - Belirli bir günde satılan ürün sayısı.
+
+### Çıktı verisi (y_test)
+- **item_cnt_month**   - Nümerik
+
 ## 4. Performans Ölçütleri
 
 ### - Root Mean Square Error(RMSE):
